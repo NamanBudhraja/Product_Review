@@ -1,0 +1,279 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  text-align: center;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 11px;
+  box-shadow: 0 8px 35px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin: 11px;
+  width: 300px;
+}
+
+.product-card h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.product-card p {
+  color: #666;
+}
+
+.product-card h3 {
+  margin: 10px 0;
+  color: #333;
+}
+
+.product-card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.product-card ul li {
+  margin-bottom: 2px;
+  color: #555;
+}
+
+.product-card form {
+  margin-top: 10px;
+}
+
+.product-card label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  gap: 10px;
+}
+
+.product-card input,
+.product-card textarea {
+  width: 100%;
+  padding: 3px;
+  margin-bottom: px;
+  box-sizing: border-box;
+}
+
+label {
+  margin: 10px;
+}
+.product-card button {
+  background-color: #007BFF; /* Primary blue color */
+  color: #fff; /* White text */
+  border: none; /* Remove border */
+  padding: 12px 16px; /* Increased padding for a larger clickable area */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 6px; /* Rounded corners */
+  font-size: 1rem; /* Font size */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2); /* Subtle shadow for depth */
+  margin-top: 10px; /* Space above the button */
+  width: 100%; /* Full width */
+}
+
+.product-card button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: translateY(-2px); /* Slight lift effect on hover */
+  box-shadow: 0 6px 12px rgba(0, 123, 255, 0.3); /* Enhanced shadow on hover */
+}
+
+.product-card .delete-btn {
+  background-color: #9e6369; /* Red for delete button */
+  margin-bottom: 10px; /* Space below delete button */
+}
+
+.product-card .delete-btn:hover {
+  background-color: #c82333; /* Darker red on hover */
+  transform: translateY(-2px); /* Slight lift effect on hover */
+  box-shadow: 0 6px 12px rgba(220, 53, 69, 0.3); /* Enhanced shadow on hover */
+}
+
+
+@media (max-width: 600px) {
+  .product-card {
+      width: 100%;
+  }
+}
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.product-card {
+  background-color: #fff; /* Background color for the card */
+  border: 1px solid #ddd; /* Light border around the card */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  padding: 20px; /* Padding inside the card */
+  margin: 15px; /* Margin around the card */
+  width: 300px; /* Fixed width for consistency */
+  transition: transform 0.2s; /* Smooth transformation */
+}
+
+.product-card:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.product-card h2 {
+  font-size: 1.5rem; /* Title font size */
+  color: #333; /* Dark text color */
+}
+
+.product-card p {
+  color: #666; /* Description text color */
+  margin: 10px 0; /* Margin for spacing */
+}
+
+.product-card h3 {
+  color: #007BFF; /* Color for reviews section */
+}
+
+.product-card ul {
+  list-style-type: none; /* Remove default list styles */
+  padding: 0; /* Remove padding */
+}
+
+.product-card ul li {
+  margin-bottom: 5px; /* Space between reviews */
+  color: #555; /* Review text color */
+}
+
+.product-card img {
+  max-width: 100%; /* Responsive image */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px; /* Slightly rounded corners for the image */
+}
+
+.product-card form {
+  margin-top: 10px; /* Spacing above the form */
+}
+
+.product-card label {
+  display: block; /* Block display for labels */
+  margin-bottom: 5px; /* Space below each label */
+  color: #333; /* Label text color */
+}
+
+
+
+.delete-btn {
+  background-color: red;
+  color: white;
+  margin-bottom: 15px;
+
+}
+
+.add-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+h1 {
+  text-align: center;
+  background-color: rgb(1, 28, 1);
+  color: white;
+  width: 70vw;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: larger;
+  margin: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: -5px;
+  margin-top: -5px;
+}
+
+h3 {
+  color: #007BFF;
+}
+
+.outer-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-btn {
+  background-color: rgb(1, 28, 1);
+  color: #ffffff;
+  margin-left: 5px;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+
+}
+
+img {
+  width: 200px;
+  height: 200px;
+
+}
+.buttons-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-two {
+	color: #f0b4b4;
+	transition: all 0.5s;
+	position: relative;	
+}
+.btn-two span {
+	z-index: 2;	
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;	
+}
+.btn-two::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transition: all 0.5s;
+	border: 1px solid rgba(181, 9, 9, 0.2);
+	background-color: rgba(197, 31, 31, 0.1);
+}
+.btn-two::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transition: all 0.5s;
+	border: 1px solid rgba(152, 14, 14, 0.2);
+	background-color: rgba(211, 28, 28, 0.1);
+}
+.btn-two:hover::before {
+  transform: rotate(-45deg);
+  background-color: rgba(255,255,255,0);
+}
+.btn-two:hover::after {
+  transform: rotate(45deg);
+  background-color: rgba(255,255,255,0);
+}
